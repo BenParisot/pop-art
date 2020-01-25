@@ -36,10 +36,13 @@ export default function TrafficLight() {
     changeColor();
 
     return (
-        <div className="light-container">
-            <div className={colors.red}></div>
-            <div className={colors.yellow}></div>
-            <div className={colors.green}></div>
+        <div className="wrapper">
+            <h1>Ben's Magic Stop Light</h1>
+            <div className="light-container">
+                <div className={colors.red}></div>
+                <div className={colors.yellow}></div>
+                <div className={colors.green}></div>
+            </div>
         </div>
     )
 }
