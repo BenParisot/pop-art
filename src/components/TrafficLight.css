@@ -1,0 +1,29 @@
+.light-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    width: 100px;
+    height: 300px;
+
+}
+
+.light {
+    background: lightgrey;
+    border-radius: 90%;
+    width: 80px;
+    height: 80px;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
